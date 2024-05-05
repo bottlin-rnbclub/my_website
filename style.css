@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+
+body {
+    margin: 0px;
+    background-color: #0f0f0f;
+}
+
+header{
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.ul{
+    text-decoration: none;
+    line-height: 69px;
+    word-spacing: 69px;
+}
+
+
+.textforheader{
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.textheader{
+    text-decoration: none;
+    color: white;
+}
+.textheader:hover{
+    text-decoration:transparent;
+    color: grey;
+
+}
+.textphone{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    float: right;
+}
+
+.phone{
+    padding: 10px;
+    color: white;
+    list-style-type: none;
+    float: right;
+}
+/* 
+___________________________________________
+*/
+.whats{
+    margin-top: 100px;
+    margin-right: 340px;
+    margin-left: 340px;
+
+}
+
+
+
+.zagolovok{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: left;
+    font-size: 75px;
+    padding-top: 100px;
+}
+
+.imgmain {
+    padding-inline: -900px;
+    float: right;    
+    display: flex;
+
+}
+
+
+.imgmain:hover{
+    opacity: 1;
+    animation-duration: 3ms;
+    animation-delay: 2ms;
+    animation-iteration-count: 10;
+    animation-name: img;
+
+}
+
+@keyframes img1{
+    0%{ opacity: 0,9; top: 0px; right: 0px;}
+    25%{
+        opacity: 0,9; top: 5px; right: 1px;}
+    50%{
+        opacity: 0,9; top: 15px; right: 3px;}
+    75%{
+        opacity: 0,9; top: 25px; right: 6px;}
+    100%{
+        opacity: 0,9; top: 40px; right: 10px;}
+}
+
+@-webkit-keyframeskeyframes img1{
+    0%{ opacity: 0,9; top: 0px; right: 0px;}
+    25%{
+        opacity: 0,9; top: 5px; right: 1px;}
+    50%{
+        opacity: 0,9; top: 15px; right: 3px;}
+    75%{
+        opacity: 0,9; top: 25px; right: 6px;}
+    100%{
+        opacity: 0,9; top: 40px; right: 10px;}
+}
+
+
+
+
+
+.podtext{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.knopka{
+    padding-bottom: 150px;
+}
+
+/* 
+________________________________________________
+ */
+
+.formargin{
+    display: flex;
+}
+
+
+.second_screen{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 150px;
+}
+
+.zagolovok_second_screen{
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding-bottom: 100px;
+
+}
+
+.zagolovor_near_sq{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.textformargin{
+    padding-top: 50px;
+    width: 500px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+.hp{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 200px;
+
+}
+
+.classforbutton{
+    float: right;
+    padding-right: 70px;
+    margin-bottom: -100px;
+}
+
+.blockforfirstblocksecond{
+    margin-top: 159px;
+
+}
+.square2{
+    float: right;
+
+}
+
+
+.textformargin2{
+    padding-top: 50px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.classforbutton2{
+    margin-top: 159px;
+    margin-left: 80px;
+
+}
+
+.blockforfirstblockthree{
+    margin-top: 159px;
+
+}
